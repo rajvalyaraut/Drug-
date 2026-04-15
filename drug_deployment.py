@@ -32,4 +32,4 @@ model = DecisionTreeClassifier()
 model.fit(X_train, y_train)
 
 # Save model
-pickle.dump(model, open('model.pkl', 'wb'))
+pickle.dump(model, open('Drug Prediction Model.pkl', 'wb'))
